@@ -66,8 +66,8 @@ label{margin-bottom:5px;}
 h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:uppercase;}
 .heading.nospace{margin:0;}
 
-section.project-intro .desc .txt-left {
-    text-align: left;
+section.project-intro .desc .txt-justify {
+    text-align: justify;
 }
 
 address{font-style:normal; font-weight:normal;}
