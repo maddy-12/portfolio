@@ -280,6 +280,12 @@ section.project-intro .desc .txt-justify {
     text-align: justify;
 }
 
+.vertical-center {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
 address {
     font-style: normal;
     font-weight: normal;

@@ -977,7 +977,9 @@ table a,
 		margin-top: 5px;
 	}
 
-	#breadcrumb {}
+	#breadcrumb {
+		padding: 0;
+	}
 
 	.container {}
 
@@ -1103,4 +1105,5 @@ table a,
 	.font-x3 {
 		font-size: 1.6rem;
 	}
+
 }
