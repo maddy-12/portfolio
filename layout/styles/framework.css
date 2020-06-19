@@ -325,9 +325,14 @@ hr {
 
 }
 
-div.hero-img {
+div.hero-img-japhon {
     background-image: url("../../images/assets/japhon/banner.png");
+    background-repeat: no-repeat;
 
+}
+
+div.hero-img-regnum {
+    background-image: url("../../images/assets/regnum_organicura/hero.png");
 }
 
 div.padding-hero {
