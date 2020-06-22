@@ -791,14 +791,14 @@ textarea:focus,
 }
 
 /* Content Area */
-.cta article i {
+ .cta article i {
 	color: rgba(0, 0, 0, .2);
 }
 
-.cta article:hover .heading a,
-.cta article:hover i {
-	color: inherit;
-}
+.cta .red
+ {
+	color: #D01818;
+} 
 
 .services article * {
 	color: #FFFFFF;
