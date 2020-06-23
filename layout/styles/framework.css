@@ -338,6 +338,10 @@ div.hero-img-landing {
     background-image: url("../../images/assets/landing-page/banner.png");
 }
 
+div.hero-img-ac {
+    background-image: url("../../images/assets/artists-cave/hero-ac-1.png");
+}
+
 div.padding-hero {
     padding: 50px;
 }
