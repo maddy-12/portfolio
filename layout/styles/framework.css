@@ -177,10 +177,6 @@ img {
     clear: right;
 }
 
-.small-icone{
-    font-size: 10px;
-}
-
 /* Fonts
 --------------------------------------------------------------------------------------------------------------- */
 body,
@@ -337,6 +333,9 @@ div.hero-img-japhon {
 
 div.hero-img-regnum {
     background-image: url("../../images/assets/regnum_organicura/hero.png");
+}
+div.hero-img-landing {
+    background-image: url("../../images/assets/landing-page/banner.png");
 }
 
 div.padding-hero {
