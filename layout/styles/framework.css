@@ -341,6 +341,9 @@ div.hero-img-landing {
 div.hero-img-ac {
     background-image: url("../../images/assets/artists-cave/hero-ac-1.png");
 }
+div.hero-img-museum {
+    background-image: url("../../images/assets/open-museum/hero-museum.png");
+}
 
 div.padding-hero {
     padding: 50px;
