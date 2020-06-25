@@ -154,8 +154,10 @@ File: Layout CSS
 	left: 0;
 	width: 85px;
 	overflow: hidden;
-	line-height: 1;
-	font-size: 65px;
+	line-height: 1;	
+}
+.cta article .size-icone {
+    font-size: 65px;
 }
 
 .cta article .heading {
@@ -1005,22 +1007,7 @@ table a,
 
 	.container {}
 
-	#comments input[type="reset"] {
-		margin-top: 10px;
-	}
-
-	.pagination li {
-		display: inline-block;
-		margin: 0 5px 5px 0;
-	}
-
 	#footer {}
-
-	#copyright {}
-
-	#copyright p:first-of-type {
-		margin-bottom: 10px;
-	}
 }
 
 @media screen and (max-width:750px) {
