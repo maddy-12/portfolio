@@ -194,7 +194,7 @@ File: Layout CSS
 
 .services article .project-content {
 	/* background-color: white; */
-	height: 247px;
+	min-height: 247px;
 }
 
 .services article .skill-tag {
