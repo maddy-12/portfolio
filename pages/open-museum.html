@@ -107,7 +107,7 @@
             <!-- **** DESCRIPTION **** -->
             <div class="desc">
 
-              <p class="txt-justify">Open Museum est un site qui repertorie les musées de la région PACA. On y retrouve donc les coordonées de chaque musée provenant d'une base de donnée publique Open data mais qui ont été ensuite transférés sur une base de donnée no-sql.</p>
+              <p class="txt-justify">Open Museum est un site qui repertorie les musées de la région PACA. On y retrouve donc les coordonées de chaque musée provenant d'une base de donnée publique (Open data) mais qui ont été ensuite transférés sur une base de donnée no-sql.</p>
         
               <!-- links to sources -->
               <div class="text-left">
@@ -128,7 +128,7 @@
         <div class="row my-5">
           <div class="col-12 text-left">
             <h2>Technologies</h2>
-            Le projet à été développé avec la stack MEAN, c'est-à-dire:
+            Le projet à été développé avec la stack <strong>MEAN</strong>, c'est-à-dire:
             <ul>
               <li>
                 <strong>MongoDB</strong>: une base de donnée non-relationnelle dans laquelle ont été transférés les données provenant d'une base de donnée publique.
@@ -143,6 +143,7 @@
                 <strong>Node.JS</strong>: Un framework back-end basé sur le language JavaScript.
               </li>
             </ul>
+            Ainsi que <strong>Leaflet</strong>, une librairie permettant d'intégrer une carte géographique dans un site web.
         </div>
 
       </section>
@@ -150,22 +151,37 @@
   <!-- Screenshots -->
   <section>
     <div class="col-12">
-      <h2>Aperçu du site</h2>
+      <h2>Fonctionnalités</h2>
     </div>
     <!--**** 1st row **** -->
+   
     <div class="row">
+      <div class="col-md-6 my-5 col-sm-12 vertical-center">
+        <h3 class="text-left">Page d'accueil</h3>
+       <p class= "text-left">Sur cette page, l'utilisateur peut visualisé la liste des musées de la région PACA. Chaque carte contient le nom du musée ainsi que la ville où il se trouve. </p>
+       <p class= "text-left">Pour avoir plus de détails, l'utilisateur devra alors cliquer sur le lien "En savoir plus" situer en bas à gauche de la carte.</p>
+
+      </div>   
       <div class="col-md-6 my-5 col-sm-12 ">
-        <a class="m-top" href="../images/assets/open-museum/home-museum.png" data-fancybox="gallery" data-caption="Accueil">
-          <img class="mb-3 b-shadow" src="../images/assets/open-museum/home-museum.png" alt="Aperçus de l'Accueil" /> Accueil
-        </a>
-      </div>
-      <div class="col-md-6 my-5 col-sm-12 ">
-        <a href="../images/assets/open-museum/museum-details.png" data-fancybox="gallery" data-caption="Informations sur le musée">
-          <img class="mb-3 b-shadow" src="../images/assets/open-museum/museum-details.png" alt="Informations sur le musée" /> Informations sur le musée
+        <a href="../images/assets/open-museum/home-museum.png" data-fancybox="gallery" data-caption="Page d'accueil">
+          <img class="mb-3 b-shadow" src="../images/assets/open-museum/home-museum.png" alt="" /> Page d'accueil
         </a>
       </div>
     </div>
 
+    <div class="row">
+    <div class="col-md-6 my-5 col-sm-12 ">
+      <a href="../images/assets/open-museum/museum-details.png" data-fancybox="gallery" data-caption="Détail d'un musée">
+        <img class="mb-3 b-shadow" src="../images/assets/open-museum/museum-details.png" alt="" /> Détail d'un musée
+      </a>
+    </div>
+      <div class="col-md-6 my-5 col-sm-12 vertical-center">
+        <h3 class="text-left">Détail d'un musée</h3>
+       <p class= "text-left mb-0">Lorsque l'utilisateur clique sur "En savoir plus" il est redirigé vers cette page ou il peut trouver les information du musée concerné en détail. C'est-à-dire, le nom du musée, son site web, son numéro de téléphone, ses horaires d'ouvertures ainsi que son adresse exacte accompagnée par l'emplacement de celle-ci sur la carte géographique.</p>
+       
+      </div>   
+    </div>
+    </div>
   </section>
 
   </main>
