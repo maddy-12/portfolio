@@ -107,9 +107,8 @@
             <!-- **** DESCRIPTION **** -->
             <div class="desc">
 
-              <p class="txt-justify"> Artists cave est un site qui repetorie les artistes illustrateurs en affichant leurs oeuvres ainsi que leurs coordonées.</p>
-              <p class="txt-justify">L'objectif du projet est de réaliser un site web en PHP avec un model MVC permettant de s'inscrire, se connecter, créer des posts qui s'afficheront dans la page d'acceuil du site.</p>
-              <p class="txt-justify"></p>
+              <p class="txt-justify"> Artists cave est un site qui repetorie les artistes illustrateurs en affichant leurs oeuvres ainsi que leurs coordonées. Il permet à l'utilisateur de s'inscrire, se connecter et créer des posts qui s'affichent dans la page d'acceuil du site.</p>
+              <p class="txt-justify">Le projet a été versionné sur Github puis deployé sur l'hebergeur de sites gratuit Heroku.</p>
 
 
               <!-- links to sources -->
@@ -133,31 +132,54 @@
       <section>
         <div class="row my-5">
           <div class="col-12">
-            <h2>Processus de developpement</h2>
-            [UNDER CONSTRUCTION]
+            <h2>Technologies</h2>
         </div>
-
+        <div class="row my-5 text-left">
+        <div class="col-12">
+      
+          <p class="txt-justify">Artists Cave est développé entièrement avec une programmation orientée objet (POO) avec PHP 7.4 et implémente le design pattern MVC (Model–view–controller). </p>
+          <p class="txt-justify">Quant à la persistance des donnée, elle a été gérer grâce à un ORM (Object-relational mapping) s'appuyant sur des fichiers en format JSON.</p>
+          <p class="txt-justify">Enfin, la partie front-end a été developpé en HTML 5, CSS 3 et Bootstrap 4.</p>
+          
+        </div>
+      </div>
       </section>
  
-  <!-- Screenshots -->
+  <!-- ********************** FEATURES SECTION ********************************* -->
   <section>
     <div class="col-12">
-      <h2>Aperçu du site</h2>
+      <h2>Fonctionnalités</h2>
     </div>
-    <!--**** 1st row **** -->
+    <!--**** Register **** -->
     <div class="row">
       <div class="col-md-6 my-5 col-sm-12 ">
         <a class="m-top" href="../images/assets/artists-cave/register.PNG" data-fancybox="gallery" data-caption="interface d'inscription">
           <img class="mb-3 b-shadow" src="../images/assets/artists-cave/register.PNG" alt="Aperçus de l'interface d'inscription" /> interface d'inscription
         </a>
       </div>
+       <div class="col-md-6 my-5 col-sm-12 vertical-center">
+         <h3 class="text-left">Inscription</h3>
+        <p class="txt-justify text-left">Elle permet à l'utilisateur de s'inscrire dans le site avec un email, un username qui doit avoir au moins 4 caractères et un mot de passe possédant au moin 8 caractère et qui est par la suite haché et crypté grâce à la fonction MD5.</p>
+       </div>
+    </div>
+
+    <!-- ***** Connexion ***** -->
+
+    <div class="row">
+      <div class="col-md-6 my-5 col-sm-12 vertical-center">
+        <h3 class="text-left">Connexion</h3>
+       <p class="txt-justify text-left">Une fois inscrit, l'utilisateur va pouvoir se connecter avec ses identifiants qui seront vérifiés afin de s'assurer qu'ils correspondent aux données enregistrées dans la base de données.</p>
+      </div>
       <div class="col-md-6 my-5 col-sm-12 ">
         <a href="../images/assets/artists-cave/login.PNG" data-fancybox="gallery" data-caption="interface de connexion">
           <img class="mb-3 b-shadow" src="../images/assets/artists-cave/login.PNG" alt="interface de connexion" /> interface de connexion
         </a>
+        <p class="txt-justify"></p>
       </div>
     </div>
-    <!-- **** 2nd row **** -->
+    
+   
+    <!-- **** HOME PAGE **** -->
 
     <div class="row">
       <div class="col-md-6 my-5 col-sm-12 ">
@@ -165,6 +187,18 @@
           <img class="mb-3 b-shadow" src="../images/assets/artists-cave/home.PNG" alt="Page d'accueil" /> Page d'accueil
         </a>
       </div>
+        <div class="col-md-6 my-5 col-sm-12 vertical-center">
+          <h3 class="text-left">Inscription</h3>
+         <p class="txt-justify text-left">La page d'accueil du site est visible à tous les utilisateurs, même ceux qui ne sont pas inscrits dans le site.</p>
+         <p class="txt-justify text-left">On y trouve les posts des artistes contenant leur les images de leurs oeuvres, le titre, la description, le type, ainsi que les prix de celles-ci. Enfin on y trouve un boutton qui permet de contacter l'artiste.</p>
+        </div>     
+    </div>
+    <div class="row">
+      <div class="col-md-6 my-5 col-sm-12 vertical-center">
+        <h3 class="text-left">Création d'un nouveau post</h3>
+       <p class="txt-justify text-left">Cette fonctionnalité est exclusivement réservée aux utilisateurs inscrits dans le site, c'est-à-dire les artistes.</p>
+       <p class="txt-justify text-left">La création d'un nouveau post se fait à l'aide d'un formulaire où l'utilisateurs doit renseigner l'url de l'image de son oeuvre, son titre, une brève déscription de cette oeuvre, son prix et enfin le type (ex: Aquarelle, peinture à l'huile...etc.).</p>
+      </div>   
       <div class="col-md-6 my-5 col-sm-12 ">
         <a href="../images/assets/artists-cave/add-post.PNG" data-fancybox="gallery" data-caption="Créer un nouveau post">
           <img class="mb-3 b-shadow" src="../images/assets/artists-cave/add-post.PNG" alt="" /> Créer un nouveau post
@@ -172,8 +206,21 @@
       </div>
     </div>
 
-  </section>
+    <div class="row">
+      <div class="col-md-6 my-5 col-sm-12 ">
+        <a href="../images/assets/artists-cave/search.PNG" data-fancybox="gallery" data-caption="Recherche">
+          <img class="mb-3 b-shadow" src="../images/assets/artists-cave/search.PNG" alt="" /> Recherche
+        </a>
+      </div>
+      <div class="col-md-6 my-5 col-sm-12 vertical-center">
+        <h3 class="text-left">Recherche</h3>
+       <p class="txt-justify text-left">Une fonction de recherche simple à été mise en place basé sur les titres des posts.</p>
+      </div>   
+    
+    </div>
 
+  </section>
+</div>
   </main>
   </div>
   <!-- ************************ FOOTER ************************************************* -->
