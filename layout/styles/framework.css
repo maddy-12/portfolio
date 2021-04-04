@@ -352,6 +352,9 @@ div.hero-img-home {
     background-image: url("../../images/assets/bg-hero.png");
     
 }
+div.hero-img-cdmtv {
+    background-image: url("../../images/assets/cdmtv/metiers.png");
+}
 /*
 The "hoc" class is a generic class used to centre a containing element horizontally
 It should be used in conjunction with a second class or ID
